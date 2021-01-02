@@ -1,0 +1,46 @@
+body {
+			text-align: center;
+			font-family: helvetica "Times new roman" sans-serif;
+			padding:5px;
+			margin:auto;
+			background-image:url("tile-background-white.jpg");
+			
+		}
+		h1 {
+			color:darkblue;
+		}
+		
+		h3 {
+			background-color: cornflowerblue;
+			color:whitesmoke;
+		}
+		
+		table {
+			border:3px solid darkblue;
+			border-collapse:collapse;
+			border-spacing: 0px;
+			margin: 0 auto;	
+			text-align: left;
+			width:75%;
+			height:auto;
+			color:darkblue;
+			background-color:transparent;
+	
+			
+		}
+		tr:nth-child(even) {
+			background-color:aliceblue;
+			
+		}
+		
+		.mainheading {
+			text-align: center;
+		}
+		tr,th,td {
+			border:1px dotted darkblue;
+			
+		}
+		tr.hover:hover {
+			background-color:darkblue;
+			color:white;
+		}
